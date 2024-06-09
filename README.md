@@ -37,4 +37,3 @@ The goal is to create a backend system like Twitter using Node.js and MongoDB. W
 4. **Fetch User Timeline**:
    - Get tweets from a specific user, one page at a time.
 
-This assignment checks how well you can build a system that's fast, easy to understand, and works well with lots of users and tweets.
