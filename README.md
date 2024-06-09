@@ -9,11 +9,7 @@ The goal is to create a backend system like Twitter using Node.js and MongoDB. W
 3. **Authentication**: Make sure only the right people can use the system.
 4. **Domain-Driven Design**: Organize the system in a smart way to keep it clean and easy to change.
 5. **Pagination**: Help the system handle lots of tweets by breaking them into pages.
-6. **Documentation**: Explain how to use the system.
-
-#### Deliverables
-1. **Source Code**: All the code you wrote.
-2. **API Documentation**: A 
+6. **Documentation**: Explain how to use the system
 
 #### Essential Components
 - **Users Collection**: Store user info like usernames and passwords.
