@@ -23,22 +23,6 @@ exports.createNewTweet = async (req, res)=>{
 
 }
 
-// exports.findTweetsByUserId = async (req, res)=>{
-//     try{
-//         const userId = req.body.userId
-        
-//         const tweets = await tweet_model.find({userId}).populate("userId", "username").sort({createdAT: -1})
-
-//         if (!tweets || tweets.length === 0) {
-//             return res.status(404).send({ message: 'No tweets found for this user' });
-//         }
-//     return res.status(200).send(tweets);
-//     }catch (error) {
-//         console.error('Error while finding tweets by userId:', error);
-//         return res.status(500).send({ message: 'Internal Server Error' });
-//     }
-// }
-
 exports.findTweetsByUserId = async (req, res) => {
     try {
         const userId = req.body.userId;
