@@ -168,9 +168,9 @@ To ensure the correctness of the application, you can run tests using the comman
    - **Fix**: Improve logging and integrate error monitoring tools.
    - 
 
-### Contact Information:
-M.no.- 9079908032,
-Email Id:- surendrajat9079@gmail.com,
+### Contact Information:,
+Email Id:- surendrajat9079@gmail.com
+Mob.No.- 9079908032
 LinkedIn:- www.linkedin.com/in/surendra-jat-17b2b8162
 
 
