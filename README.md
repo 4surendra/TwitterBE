@@ -39,6 +39,38 @@ The goal is to create a backend system like Twitter using Node.js and MongoDB. W
 
 ### How to Run the Application:
 
+- **Install Dependencies**:
+  - Open your command line interface (CLI) or terminal.
+  - Navigate to the project's root directory.
+  - Run the command: `npm install`
+  - This command installs all necessary dependencies for the application.
+
+- **Set Up Environment Variables**:
+  -- **auth.config.js**:
+  - Set the JWT_SECRET environment variable to "This is my super private secret".
+
+- **db.config.js**:
+  - Define the DB_NAME environment variable as "twitter".
+  - Set the DB_URL environment variable to "mongodb://0.0.0.0/twitter".
+
+- **server.config.js**:
+  - Specify the PORT environment variable as 3001.
+
+- **Start the Server**:
+  - After setting up environment variables, start the server by running: `node server.js`
+  - This command launches the application, displaying a message indicating the server is running on a specific port.
+
+- **Access the Application**:
+  - Once the server is running, open a web browser.
+  - Enter the URL `http://localhost:3000` (or your specified port) in the address bar.
+  - This takes you to the application's homepage, where you can interact with its features.
+
+- **Testing**:
+  - Run tests for the application using: `npm test`
+  - This executes any configured tests, providing feedback on their success or failure.
+
+- **Troubleshooting**:
+  - If issues arise during setup or while running the application, refer to the "Issues and Troubleshooting" section in the README for guidance on resolving common problems.
 
 ### Dependencies: 
 To run the application, you'll need the following external libraries, frameworks, and tools:
@@ -90,8 +122,56 @@ Now we have Postman installed on your computer and can use it to test the APIs o
 
 
 ### Configuration:
+auth.config.js:
+This file contains the secret key used for authentication purposes.
+The secret key is set to **"This is my super private secret"**.
+This secret key is essential for securing authentication processes within the application.
+db.config.js:
+
+In db.config.js, we specify the database-related configuration.
+DB_NAME is set to "twitter", indicating the name of the database used in the project.
+DB_URL is set to **"mongodb://0.0.0.0/twitter"**, specifying the URL for connecting to the MongoDB database.
+These settings ensure that the application connects to the correct database and performs operations accordingly.
+server.config.js:
+
+This file manages the configuration related to the server.
+The PORT setting is configured to **3001**, which specifies the port number on which the server will listen for incoming requests.
+Setting the port ensures that the server operates on the specified port, allowing clients to communicate with the application effectively.
 
 ### Testing:
+To ensure the correctness of the application, you can run tests using the command `npm test` in your command line interface or terminal. This command executes any configured tests for the application, checking various functionalities and components for expected behavior. Running tests helps identify any bugs or issues in the codebase, ensuring that the application functions as intended across different scenarios and use cases. Regular testing is essential for maintaining the reliability and quality of the application, providing confidence in its performance and stability.
+
+## Issues & Fixes
+
+1. **Database Connection**:
+   - **Issue**: Trouble connecting to the database.
+   - **Fix**: Check database details and server status.
+
+2. **Server Problems**:
+   - **Issue**: Server not starting or listening.
+   - **Fix**: Check port availability and server setup.
+
+3. **Authentication Errors**:
+   - **Issue**: Problems with user authentication.
+   - **Fix**: Verify secret key and token expiration.
+
+4. **Environment Setup**:
+   - **Issue**: Incorrect or missing environment variables.
+   - **Fix**: Review `config` file and loading process.
+
+5. **Testing Troubles**:
+   - **Issue**: Testing failures or errors.
+   - **Fix**: Update test configurations and dependencies.
+
+6. **Logging & Errors**:
+   - **Issue**: Difficulty diagnosing issues.
+   - **Fix**: Improve logging and integrate error monitoring tools.
+   - 
+
+### Contact Information:
+M.no.- 9079908032,
+Email Id:- surendrajat9079@gmail.com,
+LinkedIn:- www.linkedin.com/in/surendra-jat-17b2b8162
 
 
 
